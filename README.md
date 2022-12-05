@@ -49,7 +49,7 @@ vorbildunternehmer/kasm_obsidian:latest
 1024
 ```
 
-**GPU Count
+**GPU Count**
 ```
 0
 ```
