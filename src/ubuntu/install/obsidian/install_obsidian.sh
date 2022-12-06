@@ -15,3 +15,6 @@ rm -rf \
 # Default settings and desktop icon
 cp /usr/share/applications/obsidian.desktop $HOME/Desktop/obsidian.desktop
 chmod +x $HOME/Desktop/obsidian.desktop
+mkdir -p $HOME/.config/obsidian/
+mkdir -p $HOME/Obsidian/
+echo '{"vaults":{"5cac2660a9f61e3a":{"path":"/home/kasm-user/Obsidian/","ts":1668154266905,"open":true}}}' > $HOME/.config/obsidian/obsidian.json
