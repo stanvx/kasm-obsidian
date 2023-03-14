@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 OBSIDIAN_VERSION=1.1.15
 apt-get update
-apt install xdg-utils -y
+apt install xdg-utils git -y
 
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v$(echo $OBSIDIAN_VERSION)/obsidian_$(echo $OBSIDIAN_VERSION)_amd64.deb
 dpkg -i obsidian_$(echo $OBSIDIAN_VERSION)_amd64.deb
