@@ -1,6 +1,8 @@
 Kasm Workspaces - Obsidian Workspace
 ===
 
+## Additional Features
+- Git
 
 [Kasm Obsidian on Docker Hub](https://hub.docker.com/repository/docker/vorbildunternehmer/kasm_obsidian)
 
