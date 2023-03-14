@@ -38,7 +38,7 @@ true
 
 **Docker Image**
 ```
-vorbildunternehmer/kasm_obsidian:latest
+stanvx/kasm_obsidian:latest
 ```
 
 **Cores**
