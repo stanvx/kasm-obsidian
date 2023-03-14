@@ -20,5 +20,6 @@ jobs:
         IMAGE_NAME: stanvx/kasm-obsidian
         TAG: latest
       run: |
-        docker build -t $IMAGE_NAME:$TAG .
-        docker push $IMAGE_NAME:$TAG
+        docker build --tag ghcr.io/stanvx/kasm-obsidian:latest
+        docker run ghcr.io/stanvx/kasm-obsidian:latest
+        docker push ghcr.io/stanvx/kasm-obsidian:latest
